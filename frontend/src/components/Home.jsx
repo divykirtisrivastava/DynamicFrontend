@@ -13,6 +13,7 @@ import Popup from "./Popup/Popup";
 import { IoCloseOutline } from "react-icons/io5";
 import axios from "axios";
 import UserContext from "../context/UserContext";
+import SocialMedia from "./SocialMedia";
 
 export default function Home() {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -83,6 +84,7 @@ if(data.status == "on"){
             </div>
           </div>
         </div>}
+        <SocialMedia/>
     </div>
   );
 };

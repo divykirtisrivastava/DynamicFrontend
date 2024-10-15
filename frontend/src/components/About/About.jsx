@@ -34,17 +34,17 @@ export default function About() {
                 </div>
 
                 {/* Container for the content */}
-                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
                     
                     {/* Image Section - two images on the left side */}
-                    <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-8 overflow-hidden">
+                    <div className=" flex flex-col space-y-4 md:space-y-8 overflow-hidden">
                         <motion.img
                             src={img}
                             alt="Indian Rasoi Dish 1"
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 1 }}
-                            className="rounded-lg shadow-lg w-full h-auto max-h-64 object-cover mx-auto md:mx-0" // Increased height
+                            className="rounded-lg shadow-lg w-64 h-64  object-fit mx-auto md:mx-0" // Increased height
                         />
                         <motion.img
                             src={img1}
@@ -52,7 +52,7 @@ export default function About() {
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 1, delay: 0.3 }}
-                            className="rounded-lg shadow-lg w-full h-auto max-h-64 object-cover mx-auto md:mx-0" // Increased height
+                            className="rounded-lg shadow-lg w-64 h-64 object-fit mx-auto md:mx-0" // Increased height
                         />
                     </div>
 

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import img from "../../assets/testimpnial.jpeg"
 import img1 from "../../assets/testimonial.jpeg"
 import img2 from "../../assets/testimonial1.jpeg"
+import img3 from "../../assets/testimonialimage.jpeg"
 const TestimonialData = [
   {
     id: 1,
@@ -24,9 +25,9 @@ const TestimonialData = [
   },
   {
     id: 5,
-    name: "VIRUSHKA",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore consectetur adipisicing elit. ",
-    img: "https://images.pexels.com/photos/19130891/pexels-photo-19130891/free-photo-of-photo-of-a-young-woman-in-a-patterned-shirt.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    name: "Neerja Bhatnagar",
+    text: "Art of Beads is a stunning handmade jewelry brand based in Jaipur, India, known for its intricate craftsmanship and unique designs. Each piece reflects the rich cultural heritage of Jaipur, blending traditional artistry with contemporary elegance.",
+    img: img3
   },
 ];
 

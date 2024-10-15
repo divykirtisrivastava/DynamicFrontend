@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import footerLogo from "../../assets/website/logo.jfif";
-import Banner from "../../assets/website/footer-pattern.jpg";
+import Banner from "../../assets/cropped_footer_pattern.jpg";
 import {
   FaFacebook,
   FaInstagram,

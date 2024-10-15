@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.filter-white {
+    filter: brightness(0) invert(1);
+  }
